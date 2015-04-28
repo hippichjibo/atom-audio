@@ -1,6 +1,6 @@
 # Jibo Audio Previewer
 
-Preview ```.mp3```, ```.ogg```, and ```.wav``` files in the [Atom editor](https://atom.io/packages/jibo-audio).
+Preview ```.mp3```, ```.ogg```, and ```.wav``` files in the [Atom editor](https://atom.io/packages/audio).
 
 
-![Jibo Audio](http://jiborobot.github.io/jibo-audio/images/screenshot-atom.png)
+![Jibo Audio](http://jiborobot.github.io/atom-audio/images/screenshot-atom.png)
