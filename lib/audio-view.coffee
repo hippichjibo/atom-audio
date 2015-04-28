@@ -6,7 +6,7 @@ class AudioView extends View
     @content: ->
         @div class: 'jibo-audio' , =>
             @audio class: 'audio-element', controls: true
-            @img src: "atom://jibo-audio/images/background.jpg"
+            @img src: "atom://audio/images/background.jpg"
 
     attached: ->
         console.log "attached!"
