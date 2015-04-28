@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle jibo-mp3'
+      'command': 'jibo-mp3:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'jibo-mp3'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'jibo-mp3:toggle'
+        }
+      ]
+    ]
+  }
+]
