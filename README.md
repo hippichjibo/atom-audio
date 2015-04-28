@@ -1,4 +1,4 @@
-# jibo-mp3 package
+# jibo-audio package
 
 A short description of your package.
 
