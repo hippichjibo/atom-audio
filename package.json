@@ -1,7 +1,7 @@
 {
   "name": "jibo-audio",
   "main": "./lib/main.js",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Preview audio files in the Atom editor",
   "repository": "https://github.com/jiborobot/jibo-audio",
   "author": "Jibo Inc. <info@jibo.com>",
