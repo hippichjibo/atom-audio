@@ -2,7 +2,7 @@
 
 # View that renders the audio of an {AudioEditor}.
 module.exports =
-class JiboAudioView extends View
+class AudioView extends View
     @content: ->
         @div class: 'jibo-audio' , =>
             @audio class: 'audio-element', controls: true
