@@ -2,8 +2,15 @@
   "name": "jibo-audio",
   "main": "./lib/main.js",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "Preview audio files in the Atom editor",
   "repository": "https://github.com/jiborobot/jibo-audio",
+
+  "author": "Jibo Inc. <info@jibo.com>",
+  "contributors": [
+      "Jonathan Ross <jonathan@jibo.com>",
+      "Francois Laberge <francoislaberge@gmail.com>"
+  ],
+
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
