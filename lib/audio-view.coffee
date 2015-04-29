@@ -5,8 +5,9 @@ module.exports =
 class AudioView extends View
     @content: ->
         @div class: 'jibo-audio' , =>
-            @audio class: 'audio-element', controls: true
-            @img src: "atom://audio/images/background.jpg"
+            @div class: 'jibo-audio-container' , =>
+                @img src: "atom://audio/images/background.jpg"
+                @audio class: 'audio-element', controls: true
 
     attached: ->
         console.log "attached!"

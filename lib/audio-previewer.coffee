@@ -2,7 +2,7 @@ AudioView = require './audio-view'
 path = require 'path'
 
 module.exports =
-  class JiboAudioEditor
+  class AudioPreviewer
     atom.deserializers.add(this)
 
     constructor: (@uri, @filePath) ->
@@ -25,6 +25,6 @@ module.exports =
 
     @deserialize: ({filePath, tabTitle}) ->
       if fs.existsSync(filePath)
-        new AudioEditor(tabTitle, filePath)
+        new AudioPreviewer(tabTitle, filePath)
       else
         console.warn "Could not deserialize image editor for path '#{filePath}' because that file no longer exists"
