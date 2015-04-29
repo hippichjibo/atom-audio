@@ -1,14 +1,12 @@
 AudioView = require './audio-view'
-{Model} = require 'theorist'
 path = require 'path'
 
 module.exports =
-  class AudioEditor extends Model
+  class JiboAudioEditor
     atom.deserializers.add(this)
 
     constructor: (@uri, @filePath) ->
       @tabTitle = path.parse(@uri).base;
-      super
 
     getTitle: ->
       @tabTitle
