@@ -1,5 +1,6 @@
 AudioView = require './audio-view'
 path = require 'path'
+fs = require 'fs'
 
 module.exports =
   class AudioPreviewer
