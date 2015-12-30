@@ -4,4 +4,4 @@ Preview ```.mp3```, ```.ogg```, and ```.wav``` files in the [Atom editor](https:
 
 ![Jibo Audio](http://jiborobot.github.io/atom-audio/images/screenshot-atom.png)
 
-Created by [Jibo Inc](http://jibo.com/)'s Robot SDK developers.
+Created by [Jibo Inc](http://jibo.com/)'s Robot SDK team.
